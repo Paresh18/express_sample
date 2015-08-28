@@ -1,0 +1,29 @@
+This is the tutorial from google developer community wrt to google calender and use of nodejs to retrieve the events from the calender.
+
+Please follow the link to build this app in nodejs
+
+https://developers.google.com/google-apps/calendar/quickstart/nodejs
+
+
+1) After following these steps please make a express app 
+
+2) I have use the ejs template please replace the jade template with the ejs template
+
+3) And copy the code of quickstart.js which you hade made with the help of previous tutorial to index.js in express app.
+
+4)Make a different route and different template page to display the number of events.
+
+
+Note-->In the above tutorial when we have to copy the code,we have to go to a url and copy the code and than paste it.
+
+5)I had made the file(url.txt) in which the url is entered you can copy it from there and also paste the client_secret.json file in the express app where package.json lie. 
+
+
+6)Now see the routes/index.js file and views/show.ejs for the code and also various other file for modification.
+
+7)Use "npm start" to run the app,check the result on http://localhost:3000/.
+
+
+
+
+

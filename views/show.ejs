@@ -1,0 +1,32 @@
+<html>
+<body>
+<h1 style="text-align: center;"><u>Your Events</u></h1>
+<hr>
+
+<p> 
+  <% var out=" " %>
+  <% var i=0 %>
+  <% var j=0 %>
+
+
+<% while(i<=e1.length-1)
+{%>
+   <% while(j<=s1.length-1)
+    {%>
+      <ul>
+      <li><%= out=e1[i]+" "+s1[j] %></li>
+       </ul> 
+       <% i=i+1 %>
+       <% j=j+1 %>
+    <% } %>
+<% } %>    
+
+   
+  
+</p>
+
+
+</body>
+</html>
+
+
